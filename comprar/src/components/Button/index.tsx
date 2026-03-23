@@ -7,7 +7,7 @@ type Props = TouchableOpacityProps & {
 
 export function Button({ title, ...rest }: Props) {
     return(
-        //O ...rest coloca todas as outras propriedades de forma implícita
+        //O {...rest} coloca todas as outras propriedades de forma implícita
         <TouchableOpacity style={styles.container} activeOpacity={0.8} {...rest}> 
             <Text style={styles.title}>{title}</Text>
         </TouchableOpacity>
