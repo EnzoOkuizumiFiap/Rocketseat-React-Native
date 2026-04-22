@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "navigation",
+    "slug": "navigation",
+    "version": "1.0.0",
+    "android": {
+      "package": "com.anonymous.navigation"
+    }
+  }
+}
